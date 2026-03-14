@@ -1,0 +1,15 @@
+Resumo Lógico: Calculadora de Peso Planetário
+
+1. ENTRADA DE DADOS (Input / Interação)
+- O programa importa e inicia a ferramenta `Scanner`. Isso é essencial para que o usuário possa interagir com o programa digitando valores no terminal, permitindo que o código seja testado dinamicamente.
+- A variável `pesoNaTerra` é criada com o tipo `double` (que suporta números fracionados/decimais) para armazenar o valor exato que o usuário digitar.
+
+2. PROCESSAMENTO (Regra de Negócio)
+- O sistema executa os cálculos sequencialmente. 
+- Sete novas variáveis do tipo `double` são criadas na memória (uma para cada planeta).
+- A lógica matemática aplicada é a multiplicação: o peso capturado no passo anterior é multiplicado pela constante gravitacional específica de cada planeta.
+
+3. SAÍDA DE DADOS (Output)
+- O programa utiliza comandos `System.out.println` para retornar as informações processadas de volta ao terminal.
+- O texto fixo (ex: "Peso em Marte: ") é concatenado (unido) ao valor numérico resultante do cálculo.
+- A instrução `scanner.close()` é chamada no final para encerrar a leitura e liberar recursos da máquina.
