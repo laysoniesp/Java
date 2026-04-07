@@ -1,31 +1,35 @@
-package Github.Java.Java_P2_LP1_AV1;
 import java.util.Scanner;
 
 public class AV1 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int opcao;
+        int opcao = -1;
 
-        do {
-            System.out.println("\n=== PAINEL DA AULA 6 ===");
+        for (; opcao != 0; ) {
+            System.out.println("\n=== PAINEL DA AVALIAÇÃO ===");
             System.out.println("1 - Questão 1");
+            System.out.println("2 - Questão 2");
+            System.out.println("3 - Questão 3");
+            System.out.println("4 - Questão 4");
             System.out.println("0 - Sair");
             System.out.print("Qual código você quer rodar? ");
             
             opcao = teclado.nextInt();
 
-            switch (opcao) {
-                case 1:
-                    Q1.executar(); 
-                    break;
-                case 0:
-                    System.out.println("Saindo...");
-                    break;
-                default:
-                    System.out.println("Opção inválida.");
-                    teclado.nextLine();
+            if (opcao == 1) {
+                Q1.executar(teclado);
+            } else if (opcao == 2) {
+                Q2.executar(teclado);
+            } else if (opcao == 3) {
+                Q3.executar(teclado);
+            } else if (opcao == 4) {
+                Q4.executar(teclado);
+            } else if (opcao == 0) {
+                System.out.println("Saindo...");
+            } else {
+                System.out.println("Opção inválida.");
             }
-        } while (opcao != 0);
+        }
 
         teclado.close();
     }

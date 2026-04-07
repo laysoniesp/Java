@@ -1,37 +1,23 @@
-package Github.Java.Java_P2_LP1_AV1;
-
 import java.util.Scanner;
 
 public class Q1 {
-    public static void executar() {
-        Scanner teclado = new Scanner(System.in);
+    public static void executar(Scanner teclado) {
         int sim = 0;
         int nao = 0;
-        int resposta;
 
-        System.out.println("\nPesquisa: Você gosta de beterraba?");
-
-        for (int i = 1; i <= 15; i++) {
-            do {
-                System.out.printf("Usuário %d - Digite 1 (SIM) ou 2 (NÃO): ", i);
-                resposta = teclado.nextInt();
-                
-                if (resposta != 1 && resposta != 2) {
-                    System.out.println("Opção inválida! Tente novamente.");
-                }
-            } while (resposta != 1 && resposta != 2);
+        for (int i = 0; i < 15; i++) {
+            System.out.println("Você gosta de beterraba? Digite 1 para SIM e 2 para NÃO:");
+            int resposta = teclado.nextInt();
 
             if (resposta == 1) {
                 sim++;
-            } else {
+            } else if (resposta == 2) {
                 nao++;
             }
 
-            System.out.printf("Placar atual -> SIM: %d | NÃO: %d\n\n", sim, nao);
+            System.out.println("Quantidade de SIM: " + sim);
+            System.out.println("Quantidade de NÃO: " + nao);
+            System.out.println("-----------------------------------");
         }
-
-        System.out.println("--- Pesquisa Finalizada ---");
-        System.out.printf("Resultado Final: %d pessoas gostam e %d não gostam.\n", sim, nao);
-        teclado.close();
     }
 }
