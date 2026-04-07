@@ -17,5 +17,6 @@ public class Q6 {
         double media = (nota1 + nota2 + nota3) / 3;
 
         System.out.println("Média: " + media);
+            entrada.close();
     }
 }

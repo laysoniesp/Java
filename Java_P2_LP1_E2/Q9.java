@@ -14,5 +14,6 @@ public class Q9 {
         double area = ((baseMaior + baseMenor) / 2) * altura;
 
         System.out.println("Área do trapézio: " + area);
+        entrada.close();
     }
 }

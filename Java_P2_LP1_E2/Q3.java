@@ -11,5 +11,6 @@ public class Q3 {
         Calendar c1 = Calendar.getInstance();
         int ano = (c1.get(Calendar.YEAR));
         System.out.println("Sua idade é " + (ano - nascimento));
+        entrada.close();
     }
 }

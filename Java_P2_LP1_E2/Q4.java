@@ -11,6 +11,7 @@ public class Q4 {
         int anoatual = l1.getYear();
         int idade = (anoatual - ano);
         System.out.println("Sua idade é " + idade);
+        entrada.close();
     }
 
 }

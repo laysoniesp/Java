@@ -12,5 +12,6 @@ public class Q8 {
         double troco = valorPago - preco;
 
         System.out.println("Troco a ser dado: " + troco);
+        entrada.close();
     }
 }

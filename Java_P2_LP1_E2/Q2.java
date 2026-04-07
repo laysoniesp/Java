@@ -7,5 +7,6 @@ public class Q2 {
         System.out.println("Qual seu ano de nascimento?");
         int ano = entrada.nextInt();
         System.out.println("Sua idade é " + (2026 - ano));
+        entrada.close();
     }
 }

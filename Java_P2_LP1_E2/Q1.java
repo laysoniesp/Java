@@ -7,5 +7,6 @@ public class Q1 {
         System.out.println("Qual o seu nome?");
         String nome = entrada.nextLine();
         System.out.println("Seu nome é " + nome);
+        entrada.close();
     }
 }

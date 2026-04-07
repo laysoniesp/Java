@@ -15,5 +15,6 @@ public class Q7 {
 
         System.out.println("Funcionário: " + nome);
         System.out.println("Salário final: " + salario);
+        entrada.close();
     }
 }

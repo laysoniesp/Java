@@ -12,5 +12,6 @@ public class Q5 {
         System.out.println("Subtração: " + (num1 - num2));
         System.out.println("Multiplicação: " + (num1 * num2));
         System.out.println("Divisão: " + (num1 / num2));
+        entrada.close();
     }
 }
