@@ -11,13 +11,19 @@ public class Q1 {
 
             if (resposta == 1) {
                 sim++;
+                System.out.println("Quantidade de SIM: " + sim);
+                System.out.println("Quantidade de NÃO: " + nao);
+                System.out.println("-----------------------------------");
             } else if (resposta == 2) {
                 nao++;
+                System.out.println("Quantidade de SIM: " + sim);
+                System.out.println("Quantidade de NÃO: " + nao);
+                System.out.println("-----------------------------------");
+            } else {
+                System.out.println("Entrada inválida. Por favor, digite apenas 1 ou 2.");
+                System.out.println("-----------------------------------");
+                i--;
             }
-
-            System.out.println("Quantidade de SIM: " + sim);
-            System.out.println("Quantidade de NÃO: " + nao);
-            System.out.println("-----------------------------------");
         }
     }
 }
