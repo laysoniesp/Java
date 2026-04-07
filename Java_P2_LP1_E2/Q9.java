@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Q9 {
@@ -9,9 +10,9 @@ public class Q9 {
         double baseMenor = entrada.nextDouble();
         System.out.println("Altura:");
         double altura = entrada.nextDouble();
-        
+
         double area = ((baseMaior + baseMenor) / 2) * altura;
-        
+
         System.out.println("Área do trapézio: " + area);
     }
 }

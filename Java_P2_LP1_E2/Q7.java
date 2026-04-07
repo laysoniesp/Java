@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Q7 {
@@ -9,9 +10,9 @@ public class Q7 {
         double horas = entrada.nextDouble();
         System.out.println("Valor recebido por hora:");
         double valorHora = entrada.nextDouble();
-        
+
         double salario = horas * valorHora;
-        
+
         System.out.println("Funcionário: " + nome);
         System.out.println("Salário final: " + salario);
     }

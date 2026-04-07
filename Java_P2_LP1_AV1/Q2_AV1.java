@@ -1,6 +1,7 @@
+
 import java.util.Scanner;
 
-public class Q2 {
+public class Q2_AV1 {
     public static void executar(Scanner sc) {
         System.out.println("Digite o primeiro número:");
         double n1 = sc.nextDouble();

@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class AV1 {
@@ -5,7 +6,7 @@ public class AV1 {
         Scanner teclado = new Scanner(System.in);
         int opcao = -1;
 
-        for (; opcao != 0; ) {
+        for (; opcao != 0;) {
             System.out.println("\n=== PAINEL DA AVALIAÇÃO ===");
             System.out.println("1 - Questão 1");
             System.out.println("2 - Questão 2");
@@ -13,17 +14,17 @@ public class AV1 {
             System.out.println("4 - Questão 4");
             System.out.println("0 - Sair");
             System.out.print("Qual código você quer rodar? ");
-            
+
             opcao = teclado.nextInt();
 
             if (opcao == 1) {
-                Q1.executar(teclado);
+                Q1_AV1.executar(teclado);
             } else if (opcao == 2) {
-                Q2.executar(teclado);
+                Q2_AV1.executar(teclado);
             } else if (opcao == 3) {
-                Q3.executar(teclado);
+                Q3_AV1.executar(teclado);
             } else if (opcao == 4) {
-                Q4.executar(teclado);
+                Q4_AV1.executar(teclado);
             } else if (opcao == 0) {
                 System.out.println("Saindo...");
             } else {

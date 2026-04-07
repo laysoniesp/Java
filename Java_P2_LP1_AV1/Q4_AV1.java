@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q4 {
+public class Q4_AV1 {
     public static void executar(Scanner sc) {
         System.out.println("Insira o coeficiente a:");
         double a = sc.nextDouble();

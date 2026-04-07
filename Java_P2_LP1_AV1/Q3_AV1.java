@@ -1,6 +1,7 @@
+
 import java.util.Scanner;
 
-public class Q3 {
+public class Q3_AV1 {
     public static void executar(Scanner sc) {
         System.out.println("Digite o primeiro lado:");
         double lado1 = sc.nextDouble();

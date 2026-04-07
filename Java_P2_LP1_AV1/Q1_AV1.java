@@ -1,6 +1,7 @@
+
 import java.util.Scanner;
 
-public class Q1 {
+public class Q1_AV1 {
     public static void executar(Scanner teclado) {
         int sim = 0;
         int nao = 0;
